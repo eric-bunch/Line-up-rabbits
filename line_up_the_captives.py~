@@ -21,7 +21,7 @@ def answer(x, y, n):
 							gc.enable()
 						else:
 							if count > max_level - level_num:
-								gc.disable()
+								g.disable()
 								tr[level_num].append( [ range(max_level - level_num - 1, count), 
 												 	 scipy.special.binom(number_left - 1, count) * math.factorial(number_left - 1 - count), 
 												  	 count,  index_l] )	
