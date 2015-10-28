@@ -92,7 +92,7 @@ def answer(x, y, n):
 		return ans
 	
 
-print answer(9, 10, 30)
+#print answer(9, 10, 20)
 
 """
 def answer2(x, y, n):
